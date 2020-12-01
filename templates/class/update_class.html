@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>更新班级</title>
+</head>
+<body>
+    <form method="POST" action="/update_class">
+        <input style="display: none" name="uid" value="{{ item.id }}">
+        <input name="title" value="{{ item.title }}">
+        <input type="submit">
+    </form>
+</body>
+</html>
